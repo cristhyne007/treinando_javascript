@@ -1,12 +1,22 @@
 //diminui o número de váriaveis,armazenando todos os objetos em uma variável
 const sesapi=[{
     nome:"Josiane",
-    endereco:"rua n13 de maio",
     salário:2000,
-    sala:5,
-    turno:"manha"},{
+    sala:5,},{
     nome:"Thiago",
-    endereço:"rua 7 de setembro",
     salário:1500,
-    sala:4,
-    turno:"tarde"}]
+    sala:4
+    },{
+    nome:"Heitor",
+    salário:1600,
+    sala:8,
+    },{
+    nome:"Maria",
+    salário:2000,
+    sala:3,
+    },{
+    nome:"Layla",
+    salário:3000,
+    sal:2,
+    }]
+    console.log(sesapi[3].salário,sesapi[3].nome)
