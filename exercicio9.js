@@ -3,7 +3,7 @@ function diasateanonovo(){
     const hoje= new Date();
     const anoatual=hoje.getFullYear();
     const anonovo=new Date(anoatual + 1,0,1);
-    const diferencaMilissegundos=anonovo - hoje;
+    ovo - hoje;
     const diasRestantes=Math.ceil(diferencaMilissegundos/(1000*60*60*24));
     return diasRestantes;
 }
