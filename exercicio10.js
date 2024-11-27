@@ -9,4 +9,4 @@ function esperar(ms){
  esperar(2000).then((mensagem)=>{
     console.log(mensagem)
  }
-)s
+)
